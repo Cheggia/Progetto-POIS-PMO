@@ -1,0 +1,34 @@
+Per ottenere il database su cui lavorare:
+1) aprire XAMPP control panel
+2) cliccare start sui servizi Apache e MySql
+3) aprire il browser internet e cercare http://127.0.0.1/phpmyadmin/
+4) cliccare su SQL in alto e copiare la riga seguente
+
+	CREATE DATABASE risultati;
+
+5) cliccare esegui
+6) aggiornare la pagina 
+7) sulla sinistra, selezionare il database 'risultati'
+8) cliccare su SQL in alto e copiare le righe seguenti
+
+	CREATE TABLE anagrafica (
+		NomeCognome varchar(30),
+		Compagnia varchar(30),
+		Categoria varchar(30),
+		TipoArco varchar(30));
+
+	ALTER TABLE `anagrafica` ADD PRIMARY KEY( `NomeCognome`);
+
+	CREATE TABLE bersagli (
+		NomeCognome varchar(30),
+		LuogoGara varchar(30),
+		DataGara int(11),
+		Freccia1 int(11),
+		Freccia2 int(11),
+		Freccia3 int(11),
+		SpecialeLibero int(11));
+
+9) cliccare su esegui
+10) il database è pronto all'uso
+
+
