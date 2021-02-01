@@ -23,6 +23,7 @@ Per ottenere il database su cui lavorare:
 		NomeCognome varchar(30),
 		LuogoGara varchar(30),
 		DataGara int(11),
+		Numero int(11),
 		Freccia1 int(11),
 		Freccia2 int(11),
 		Freccia3 int(11),
